@@ -1,0 +1,20 @@
+Install Libraries:
+!pip install pandas
+!pip install numpy
+!pip install matplotlib
+!pip install seaborn
+
+Check Versions of the Libraries:
+
+import pandas as pd
+print("Pandas Version:",pd.__version__)
+
+import numpy as np
+print("Numpy Version:",np.__version__)
+
+
+import seaborn as sns
+print("Seaborn Version:",sns.__version__)
+
+import matplotlib 
+print("MatplotlibVersion:",matplotlib.__version__)
